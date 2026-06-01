@@ -83,6 +83,34 @@ h2 {
 h3 { font-size: 1.08rem; margin: 26px 0 8px; }
 p { margin: 0 0 16px; }
 
+/* ---- Under-construction banner ---- */
+.construction {
+  background: var(--accent-soft);
+  border: 1px solid #e6d3d3;
+  border-radius: 6px;
+  padding: 12px 18px;
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+  color: #6d2222;
+}
+.construction strong { color: var(--accent); }
+
+/* ---- Buttons ---- */
+.btn-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 4px; }
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 5px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+}
+.btn:hover { background: #6d1616; text-decoration: none; }
+.btn.secondary { background: #fff; color: var(--accent); }
+.btn.secondary:hover { background: var(--accent-soft); }
+
 /* ---- Hero (home) ---- */
 .hero { display: flex; gap: 34px; align-items: flex-start; margin-bottom: 8px; }
 .hero-text { flex: 1 1 auto; }
